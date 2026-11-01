@@ -1,2 +1,2 @@
 # Downloads
-For hosting downloads from www.sharpn.co.ukwebsite
+From www.sharpn.co.uk website
