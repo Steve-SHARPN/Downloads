@@ -1,0 +1,7 @@
+# Files in the repo that should not be published
+.git
+.github
+.assetsignore
+wrangler.jsonc
+README.md
+CNAME
