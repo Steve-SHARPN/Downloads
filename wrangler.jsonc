@@ -1,9 +1,0 @@
-// Cloudflare Worker settings for files.sharpn.co.uk.
-// Serves the files in this repo as static downloads; _headers makes them download.
-{
-  "name": "downloads",
-  "compatibility_date": "2026-10-01",
-  "assets": {
-    "directory": "."
-  }
-}

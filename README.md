@@ -3,7 +3,7 @@
 Files offered for download on www.sharpn.co.uk, served at **files.sharpn.co.uk**.
 
 ## How it works
-- This repo is published by Cloudflare Pages. Every change to `main` (including uploads through the GitHub website) republishes the site within a minute or two.
+- This repo is published by Cloudflare Pages (project connected to this repo; custom domain files.sharpn.co.uk via a CNAME in the SHARPN DNS). Every change to `main` (including uploads through the GitHub website) republishes the site within a minute or two.
 - A file at `course-outlines/example.pdf` here is served at `https://files.sharpn.co.uk/course-outlines/example.pdf`.
 - `_headers` makes PDF, PowerPoint, Excel, Word, zip and Quick Access Toolbar (`.exportedUI`) files download instead of opening in the browser.
 
