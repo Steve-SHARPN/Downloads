@@ -1,0 +1,26 @@
+# Cloudflare Pages response headers for files.sharpn.co.uk
+# Any file of these types downloads instead of opening in the browser.
+# The saved file name is the file's name in this repo, so name files the way
+# you want them to arrive (lowercase, hyphens, no spaces).
+# Max 100 rules. Don't add a second Content-Disposition rule for a file
+# that already matches one of these: Cloudflare joins the two values and
+# the download breaks.
+
+/*.pdf
+  Content-Disposition: attachment
+/*.pptx
+  Content-Disposition: attachment
+/*.potx
+  Content-Disposition: attachment
+/*.ppsx
+  Content-Disposition: attachment
+/*.thmx
+  Content-Disposition: attachment
+/*.xlsx
+  Content-Disposition: attachment
+/*.docx
+  Content-Disposition: attachment
+/*.zip
+  Content-Disposition: attachment
+/*.exportedUI
+  Content-Disposition: attachment
